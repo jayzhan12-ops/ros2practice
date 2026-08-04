@@ -1,0 +1,309 @@
+[0.000000] (-) TimerEvent: {}
+[0.000361] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000846] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000929] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000950] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000967] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000982] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000993] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001004] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001018] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001064] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001082] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001099] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001113] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001124] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001136] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001148] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001159] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001205] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001274] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001328] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001856] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001980] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002047] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.002070] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.002085] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002097] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002112] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002155] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002172] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002189] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.002206] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.016254] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.017758] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/zhang/rosprc_ws/src/more_interfaces', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_INSTALL_PREFIX=/home/zhang/rosprc_ws/install/more_interfaces'], 'cwd': '/home/zhang/rosprc_ws/build/more_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/mnt/c/Users/Zhang/AppData/Local/Programs/Microsoft VS Code', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'AI_AGENT': 'claude-code_2-1-220_agent', 'USER': 'zhang', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_WSL_EXT_LOCATION': '/mnt/c/Users/Zhang/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'CLAUDE_AGENT_SDK_VERSION': '0.3.220', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/zhang', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/run/user/1001/vscode-ipc-a5b177f9-0091-4e2d-85dd-c0e827f83391.sock', 'ROS_PYTHON_VERSION': '3', 'CLAUDE_CODE_CHILD_SESSION': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/opt/ros/jazzy/', 'WAYLAND_DISPLAY': 'wayland-0', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhang', 'NAME': 'Zhangir', 'WSL_INTEROP': '/run/WSL/40790_interop', 'VSCODE_HANDLES_SIGPIPE': 'true', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Zhang/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/Zhang/AppData/Local/Programs/Python/Python314/:/mnt/c/Users/Zhang/.local/bin:/mnt/c/Users/Zhang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Zhang/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Processing/:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/run/user/1001', 'CLAUDE_EFFORT': 'high', 'DISPLAY': ':0', 'CLAUDE_PID': '41122', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CLAUDE_CODE_SESSION_ID': 'edf74323-970f-4d1b-85f8-b565ea09a63a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GALLIUM_DRIVER': 'd3d12', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/zhang/rosprc_ws/build/more_interfaces', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/zhang/.vscode-server/extensions/anthropic.claude-code-2.1.220-linux-x64/resources/native-binary/claude', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CLAUDE_CODE_ENABLE_TASKS': '0', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.098944] (-) TimerEvent: {}
+[0.110130] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199048] (-) TimerEvent: {}
+[0.266445] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.299244] (-) TimerEvent: {}
+[0.399653] (-) TimerEvent: {}
+[0.499984] (-) TimerEvent: {}
+[0.600327] (-) TimerEvent: {}
+[0.642976] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.665098] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.697743] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700493] (-) TimerEvent: {}
+[0.732879] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800599] (-) TimerEvent: {}
+[0.865987] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.871586] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900695] (-) TimerEvent: {}
+[1.000858] (-) TimerEvent: {}
+[1.005420] (more_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.100960] (-) TimerEvent: {}
+[1.201301] (-) TimerEvent: {}
+[1.249272] (more_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.301427] (-) TimerEvent: {}
+[1.390480] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.401611] (-) TimerEvent: {}
+[1.501816] (-) TimerEvent: {}
+[1.602017] (-) TimerEvent: {}
+[1.702295] (-) TimerEvent: {}
+[1.756807] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.788434] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.802582] (-) TimerEvent: {}
+[1.902824] (-) TimerEvent: {}
+[2.002969] (-) TimerEvent: {}
+[2.062199] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.103060] (-) TimerEvent: {}
+[2.203198] (-) TimerEvent: {}
+[2.212535] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.268402] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.270340] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.303291] (-) TimerEvent: {}
+[2.403440] (-) TimerEvent: {}
+[2.503680] (-) TimerEvent: {}
+[2.603899] (-) TimerEvent: {}
+[2.639183] (more_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.675399] (more_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.678412] (more_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.702540] (more_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.703046] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.703173] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.703979] (-) TimerEvent: {}
+[2.704162] (more_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.705349] (more_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.705502] (more_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.705858] (more_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.710739] (more_interfaces) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[2.775357] (more_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.791081] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/zhang/rosprc_ws/build/more_interfaces\n'}
+[2.799790] (more_interfaces) CommandEnded: {'returncode': 0}
+[2.801107] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[2.801159] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zhang/rosprc_ws/build/more_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/zhang/rosprc_ws/build/more_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/mnt/c/Users/Zhang/AppData/Local/Programs/Microsoft VS Code', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'AI_AGENT': 'claude-code_2-1-220_agent', 'USER': 'zhang', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_WSL_EXT_LOCATION': '/mnt/c/Users/Zhang/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'CLAUDE_AGENT_SDK_VERSION': '0.3.220', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/zhang', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/run/user/1001/vscode-ipc-a5b177f9-0091-4e2d-85dd-c0e827f83391.sock', 'ROS_PYTHON_VERSION': '3', 'CLAUDE_CODE_CHILD_SESSION': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/opt/ros/jazzy/', 'WAYLAND_DISPLAY': 'wayland-0', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhang', 'NAME': 'Zhangir', 'WSL_INTEROP': '/run/WSL/40790_interop', 'VSCODE_HANDLES_SIGPIPE': 'true', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Zhang/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/Zhang/AppData/Local/Programs/Python/Python314/:/mnt/c/Users/Zhang/.local/bin:/mnt/c/Users/Zhang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Zhang/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Processing/:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/run/user/1001', 'CLAUDE_EFFORT': 'high', 'DISPLAY': ':0', 'CLAUDE_PID': '41122', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CLAUDE_CODE_SESSION_ID': 'edf74323-970f-4d1b-85f8-b565ea09a63a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GALLIUM_DRIVER': 'd3d12', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/zhang/rosprc_ws/build/more_interfaces', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/zhang/.vscode-server/extensions/anthropic.claude-code-2.1.220-linux-x64/resources/native-binary/claude', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CLAUDE_CODE_ENABLE_TASKS': '0', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[2.804095] (-) TimerEvent: {}
+[2.847996] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target more_interfaces__rosidl_generator_type_description\n'}
+[2.848170] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target more_interfaces__rs\n'}
+[2.859734] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[2.865030] (more_interfaces) StdoutLine: {'line': b'[  8%] Built target more_interfaces__cpp\n'}
+[2.868264] (more_interfaces) StdoutLine: {'line': b'[ 21%] Built target more_interfaces__rosidl_generator_c\n'}
+[2.892810] (more_interfaces) StdoutLine: {'line': b'[ 29%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.893683] (more_interfaces) StdoutLine: {'line': b'[ 37%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[2.893833] (more_interfaces) StdoutLine: {'line': b'[ 45%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.894589] (more_interfaces) StdoutLine: {'line': b'[ 62%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[2.894709] (more_interfaces) StdoutLine: {'line': b'[ 62%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.895093] (more_interfaces) StdoutLine: {'line': b'[ 70%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.904190] (-) TimerEvent: {}
+[2.910584] (more_interfaces) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o\n'}
+[2.912810] (more_interfaces) StdoutLine: {'line': b'[ 72%] Built target more_interfaces\n'}
+[2.931146] (more_interfaces) StdoutLine: {'line': b'[ 75%] Built target more_interfaces__py\n'}
+[2.956211] (more_interfaces) StdoutLine: {'line': b'[ 81%] Built target more_interfaces__rosidl_generator_py\n'}
+[2.977351] (more_interfaces) StdoutLine: {'line': b'[ 94%] Built target more_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[2.977508] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces_s__rosidl_typesupport_c\n'}
+[2.977563] (more_interfaces) StdoutLine: {'line': b'[ 94%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[3.004278] (-) TimerEvent: {}
+[3.057152] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.073217] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[3.073747] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[3.074100] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[3.104418] (-) TimerEvent: {}
+[3.138742] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[3.139829] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[3.183030] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[3.204527] (-) TimerEvent: {}
+[3.304737] (-) TimerEvent: {}
+[3.404888] (-) TimerEvent: {}
+[3.505094] (-) TimerEvent: {}
+[3.605291] (-) TimerEvent: {}
+[3.705505] (-) TimerEvent: {}
+[3.805679] (-) TimerEvent: {}
+[3.905903] (-) TimerEvent: {}
+[4.006081] (-) TimerEvent: {}
+[4.106233] (-) TimerEvent: {}
+[4.206393] (-) TimerEvent: {}
+[4.306609] (-) TimerEvent: {}
+[4.406752] (-) TimerEvent: {}
+[4.506957] (-) TimerEvent: {}
+[4.607117] (-) TimerEvent: {}
+[4.707297] (-) TimerEvent: {}
+[4.807462] (-) TimerEvent: {}
+[4.907641] (-) TimerEvent: {}
+[5.007799] (-) TimerEvent: {}
+[5.108005] (-) TimerEvent: {}
+[5.208205] (-) TimerEvent: {}
+[5.308383] (-) TimerEvent: {}
+[5.408610] (-) TimerEvent: {}
+[5.508796] (-) TimerEvent: {}
+[5.608997] (-) TimerEvent: {}
+[5.709145] (-) TimerEvent: {}
+[5.809337] (-) TimerEvent: {}
+[5.909542] (-) TimerEvent: {}
+[6.009729] (-) TimerEvent: {}
+[6.109958] (-) TimerEvent: {}
+[6.210327] (-) TimerEvent: {}
+[6.310644] (-) TimerEvent: {}
+[6.410820] (-) TimerEvent: {}
+[6.511015] (-) TimerEvent: {}
+[6.611173] (-) TimerEvent: {}
+[6.711416] (-) TimerEvent: {}
+[6.811685] (-) TimerEvent: {}
+[6.911951] (-) TimerEvent: {}
+[7.012241] (-) TimerEvent: {}
+[7.112556] (-) TimerEvent: {}
+[7.212839] (-) TimerEvent: {}
+[7.263360] (more_interfaces) StdoutLine: {'line': b'[100%] Linking CXX executable publish_address_book\n'}
+[7.312990] (-) TimerEvent: {}
+[7.413175] (-) TimerEvent: {}
+[7.513596] (-) TimerEvent: {}
+[7.576212] (more_interfaces) StdoutLine: {'line': b'[100%] Built target publish_address_book\n'}
+[7.585443] (more_interfaces) CommandEnded: {'returncode': 0}
+[7.586418] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[7.594705] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zhang/rosprc_ws/build/more_interfaces'], 'cwd': '/home/zhang/rosprc_ws/build/more_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/mnt/c/Users/Zhang/AppData/Local/Programs/Microsoft VS Code', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'AI_AGENT': 'claude-code_2-1-220_agent', 'USER': 'zhang', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_WSL_EXT_LOCATION': '/mnt/c/Users/Zhang/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'CLAUDE_AGENT_SDK_VERSION': '0.3.220', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/zhang', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/run/user/1001/vscode-ipc-a5b177f9-0091-4e2d-85dd-c0e827f83391.sock', 'ROS_PYTHON_VERSION': '3', 'CLAUDE_CODE_CHILD_SESSION': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/opt/ros/jazzy/', 'WAYLAND_DISPLAY': 'wayland-0', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhang', 'NAME': 'Zhangir', 'WSL_INTEROP': '/run/WSL/40790_interop', 'VSCODE_HANDLES_SIGPIPE': 'true', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Zhang/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/Zhang/AppData/Local/Programs/Python/Python314/:/mnt/c/Users/Zhang/.local/bin:/mnt/c/Users/Zhang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Zhang/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Processing/:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/run/user/1001', 'CLAUDE_EFFORT': 'high', 'DISPLAY': ':0', 'CLAUDE_PID': '41122', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CLAUDE_CODE_SESSION_ID': 'edf74323-970f-4d1b-85f8-b565ea09a63a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GALLIUM_DRIVER': 'd3d12', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/zhang/rosprc_ws/build/more_interfaces', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/zhang/.vscode-server/extensions/anthropic.claude-code-2.1.220-linux-x64/resources/native-binary/claude', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CLAUDE_CODE_ENABLE_TASKS': '0', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[7.602343] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.602547] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[7.602626] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.json\n'}
+[7.602847] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[7.603246] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[7.603387] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[7.603515] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[7.603586] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c\n'}
+[7.603636] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h\n'}
+[7.603720] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__description.c\n'}
+[7.603820] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[7.603918] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h\n'}
+[7.604008] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.604231] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h\n'}
+[7.604285] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[7.604358] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[7.604405] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[7.604660] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[7.604756] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[7.604816] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.604882] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[7.604956] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[7.605268] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.605374] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[7.605585] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[7.605835] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[7.605940] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[7.606253] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[7.606349] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.hpp\n'}
+[7.606433] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[7.606484] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.606531] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp\n'}
+[7.606622] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[7.606682] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[7.606954] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[7.607043] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.607286] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps\n'}
+[7.607364] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.607412] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.607519] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[7.607628] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[7.607897] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[7.608080] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[7.608308] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[7.608363] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.608412] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.608663] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[7.608726] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[7.608999] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[7.609090] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[7.609142] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[7.609194] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.609516] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.609984] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.610354] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[7.610432] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[7.610479] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info\n'}
+[7.610524] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[7.610767] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[7.610932] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[7.611216] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[7.611431] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces\n'}
+[7.611596] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg\n'}
+[7.611675] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_address_book_s.c\n'}
+[7.611722] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/__init__.py\n'}
+[7.611769] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_address_book.py\n'}
+[7.611813] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.611857] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.611905] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so\n'}
+[7.611947] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.611990] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.612032] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/__init__.py\n'}
+[7.612074] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.613658] (-) TimerEvent: {}
+[7.648558] (more_interfaces) StdoutLine: {'line': b"Listing '/home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces'...\n"}
+[7.648767] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/__init__.py'...\n"}
+[7.648852] (more_interfaces) StdoutLine: {'line': b"Listing '/home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg'...\n"}
+[7.654375] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.654916] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.655328] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so\n'}
+[7.655991] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so\n'}
+[7.656220] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/ament_index/resource_index/rust_packages/more_interfaces\n'}
+[7.656324] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/rust\n'}
+[7.656572] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/rust/Cargo.toml\n'}
+[7.656711] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/rust/src\n'}
+[7.657022] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/rust/src/msg\n'}
+[7.657114] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/rust/src/msg/rmw.rs\n'}
+[7.657181] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/rust/src/lib.rs\n'}
+[7.657285] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/rust/src/msg.rs\n'}
+[7.657416] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/rust/build.rs\n'}
+[7.657534] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[7.657763] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[7.657848] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[7.658297] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhang/rosprc_ws/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""\n'}
+[7.658533] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[7.658841] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[7.659133] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[7.659230] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.659309] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[7.659357] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[7.659403] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[7.659561] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[7.659621] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[7.659742] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[7.660012] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[7.660319] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[7.660534] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.660661] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.660887] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.660972] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.661222] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.661278] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.661529] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.661643] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.661708] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.661979] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.662088] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.662303] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.662470] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.662721] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.663121] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.663186] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.663234] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.663324] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.663714] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.663950] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.664342] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.664695] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.664793] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.664846] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.664923] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[7.664971] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[7.665018] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[7.665897] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[7.666014] (more_interfaces) CommandEnded: {'returncode': 0}
+[7.692035] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[7.692779] (-) EventReactorShutdown: {}

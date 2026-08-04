@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000085] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000138] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000210] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000260] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000375] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000393] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000570] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000654] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000670] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000680] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000689] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000698] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000708] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000717] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000732] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000768] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000805] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000875] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000892] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000910] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000944] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000997] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001009] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001273] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001613] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001654] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001691] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001704] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.001714] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001977] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002131] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict({'tutorial_interfaces': '/home/zhang/rosprc_ws/install/tutorial_interfaces'})}
+[0.002224] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.099649] (-) TimerEvent: {}
+[0.200306] (-) TimerEvent: {}
+[0.300958] (-) TimerEvent: {}
+[0.401434] (-) TimerEvent: {}
+[0.501986] (-) TimerEvent: {}
+[0.552149] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.553429] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.554666] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zhang/rosprc_ws/build/cpp_srvcli', '--', '-j20', '-l20'], 'cwd': '/home/zhang/rosprc_ws/build/cpp_srvcli', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/mnt/c/Users/Zhang/AppData/Local/Programs/Microsoft VS Code', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'AI_AGENT': 'claude-code_2-1-220_agent', 'USER': 'zhang', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_WSL_EXT_LOCATION': '/mnt/c/Users/Zhang/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'CLAUDE_AGENT_SDK_VERSION': '0.3.220', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '0', 'LD_LIBRARY_PATH': '/home/zhang/rosprc_ws/install/tutorial_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zhang', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/run/user/1001/vscode-ipc-61137de4-1bd4-4948-b199-06e6966f8933.sock', 'ROS_PYTHON_VERSION': '3', 'CLAUDE_CODE_CHILD_SESSION': '1', 'COPILOT_OTEL_FILE_EXPORTER_PATH': '/dev/null', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/opt/ros/jazzy/', 'WAYLAND_DISPLAY': 'wayland-0', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhang', 'NAME': 'Zhangir', 'WSL_INTEROP': '/run/WSL/506_interop', 'VSCODE_HANDLES_SIGPIPE': 'true', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Zhang/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/Zhang/AppData/Local/Programs/Python/Python314/:/mnt/c/Users/Zhang/.local/bin:/mnt/c/Users/Zhang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Zhang/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Processing/:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/run/user/1001', 'CLAUDE_EFFORT': 'high', 'DISPLAY': ':0', 'CLAUDE_PID': '949', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/zhang/rosprc_ws/install/tutorial_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'MXC_BIN_DIR': '/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/node_modules/@microsoft/mxc-sdk/bin', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CLAUDE_CODE_SESSION_ID': '8f18d9cc-07d3-40ca-9063-8f5179e113cd', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GALLIUM_DRIVER': 'd3d12', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/zhang/rosprc_ws/build/cpp_srvcli', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/zhang/.vscode-server/extensions/anthropic.claude-code-2.1.220-linux-x64/resources/native-binary/claude', 'PYTHONPATH': '/home/zhang/rosprc_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'CLAUDE_CODE_ENABLE_TASKS': '0', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/zhang/rosprc_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.602303] (-) TimerEvent: {}
+[0.682791] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\n'}
+[0.687548] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] Built target server\n'}
+[0.702483] (-) TimerEvent: {}
+[0.803056] (-) TimerEvent: {}
+[0.903862] (-) TimerEvent: {}
+[1.005204] (-) TimerEvent: {}
+[1.105813] (-) TimerEvent: {}
+[1.206427] (-) TimerEvent: {}
+[1.306928] (-) TimerEvent: {}
+[1.407418] (-) TimerEvent: {}
+[1.508010] (-) TimerEvent: {}
+[1.608372] (-) TimerEvent: {}
+[1.709095] (-) TimerEvent: {}
+[1.810269] (-) TimerEvent: {}
+[1.910603] (-) TimerEvent: {}
+[2.011262] (-) TimerEvent: {}
+[2.111732] (-) TimerEvent: {}
+[2.212391] (-) TimerEvent: {}
+[2.312963] (-) TimerEvent: {}
+[2.413647] (-) TimerEvent: {}
+[2.514137] (-) TimerEvent: {}
+[2.614532] (-) TimerEvent: {}
+[2.715164] (-) TimerEvent: {}
+[2.815823] (-) TimerEvent: {}
+[2.916341] (-) TimerEvent: {}
+[3.017038] (-) TimerEvent: {}
+[3.117941] (-) TimerEvent: {}
+[3.218724] (-) TimerEvent: {}
+[3.319365] (-) TimerEvent: {}
+[3.420512] (-) TimerEvent: {}
+[3.521126] (-) TimerEvent: {}
+[3.621896] (-) TimerEvent: {}
+[3.722410] (-) TimerEvent: {}
+[3.823080] (-) TimerEvent: {}
+[3.923603] (-) TimerEvent: {}
+[4.024470] (-) TimerEvent: {}
+[4.125180] (-) TimerEvent: {}
+[4.226379] (-) TimerEvent: {}
+[4.327145] (-) TimerEvent: {}
+[4.427676] (-) TimerEvent: {}
+[4.528437] (-) TimerEvent: {}
+[4.629439] (-) TimerEvent: {}
+[4.730374] (-) TimerEvent: {}
+[4.831217] (-) TimerEvent: {}
+[4.932027] (-) TimerEvent: {}
+[5.033029] (-) TimerEvent: {}
+[5.133755] (-) TimerEvent: {}
+[5.234600] (-) TimerEvent: {}
+[5.335408] (-) TimerEvent: {}
+[5.436263] (-) TimerEvent: {}
+[5.537262] (-) TimerEvent: {}
+[5.638077] (-) TimerEvent: {}
+[5.738788] (-) TimerEvent: {}
+[5.839785] (-) TimerEvent: {}
+[5.940617] (-) TimerEvent: {}
+[6.041394] (-) TimerEvent: {}
+[6.142289] (-) TimerEvent: {}
+[6.243254] (-) TimerEvent: {}
+[6.344032] (-) TimerEvent: {}
+[6.445727] (-) TimerEvent: {}
+[6.546382] (-) TimerEvent: {}
+[6.647784] (-) TimerEvent: {}
+[6.748620] (-) TimerEvent: {}
+[6.849709] (-) TimerEvent: {}
+[6.950561] (-) TimerEvent: {}
+[7.051328] (-) TimerEvent: {}
+[7.152500] (-) TimerEvent: {}
+[7.253738] (-) TimerEvent: {}
+[7.354934] (-) TimerEvent: {}
+[7.456016] (-) TimerEvent: {}
+[7.557084] (-) TimerEvent: {}
+[7.658011] (-) TimerEvent: {}
+[7.758551] (-) TimerEvent: {}
+[7.859840] (-) TimerEvent: {}
+[7.961322] (-) TimerEvent: {}
+[8.062255] (-) TimerEvent: {}
+[8.163250] (-) TimerEvent: {}
+[8.264121] (-) TimerEvent: {}
+[8.365125] (-) TimerEvent: {}
+[8.466086] (-) TimerEvent: {}
+[8.566766] (-) TimerEvent: {}
+[8.667605] (-) TimerEvent: {}
+[8.768482] (-) TimerEvent: {}
+[8.869612] (-) TimerEvent: {}
+[8.970503] (-) TimerEvent: {}
+[9.071272] (-) TimerEvent: {}
+[9.172478] (-) TimerEvent: {}
+[9.273450] (-) TimerEvent: {}
+[9.374524] (-) TimerEvent: {}
+[9.475595] (-) TimerEvent: {}
+[9.577557] (-) TimerEvent: {}
+[9.678061] (-) TimerEvent: {}
+[9.778635] (-) TimerEvent: {}
+[9.879746] (-) TimerEvent: {}
+[9.981212] (-) TimerEvent: {}
+[10.082306] (-) TimerEvent: {}
+[10.183689] (-) TimerEvent: {}
+[10.284560] (-) TimerEvent: {}
+[10.385623] (-) TimerEvent: {}
+[10.486848] (-) TimerEvent: {}
+[10.587943] (-) TimerEvent: {}
+[10.689162] (-) TimerEvent: {}
+[10.790527] (-) TimerEvent: {}
+[10.891582] (-) TimerEvent: {}
+[10.992944] (-) TimerEvent: {}
+[11.094059] (-) TimerEvent: {}
+[11.194875] (-) TimerEvent: {}
+[11.295920] (-) TimerEvent: {}
+[11.397249] (-) TimerEvent: {}
+[11.498325] (-) TimerEvent: {}
+[11.598673] (-) TimerEvent: {}
+[11.664172] (cpp_srvcli) StdoutLine: {'line': b'[100%] Linking CXX executable client\n'}
+[11.699217] (-) TimerEvent: {}
+[11.800056] (-) TimerEvent: {}
+[11.901549] (-) TimerEvent: {}
+[12.002182] (-) TimerEvent: {}
+[12.102842] (-) TimerEvent: {}
+[12.203889] (-) TimerEvent: {}
+[12.304954] (-) TimerEvent: {}
+[12.406037] (-) TimerEvent: {}
+[12.457517] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[12.497615] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[12.501904] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[12.506363] (-) TimerEvent: {}
+[12.533789] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zhang/rosprc_ws/build/cpp_srvcli'], 'cwd': '/home/zhang/rosprc_ws/build/cpp_srvcli', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/mnt/c/Users/Zhang/AppData/Local/Programs/Microsoft VS Code', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'AI_AGENT': 'claude-code_2-1-220_agent', 'USER': 'zhang', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'VSCODE_WSL_EXT_LOCATION': '/mnt/c/Users/Zhang/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'CLAUDE_AGENT_SDK_VERSION': '0.3.220', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '0', 'LD_LIBRARY_PATH': '/home/zhang/rosprc_ws/install/tutorial_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zhang', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/run/user/1001/vscode-ipc-61137de4-1bd4-4948-b199-06e6966f8933.sock', 'ROS_PYTHON_VERSION': '3', 'CLAUDE_CODE_CHILD_SESSION': '1', 'COPILOT_OTEL_FILE_EXPORTER_PATH': '/dev/null', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/opt/ros/jazzy/', 'WAYLAND_DISPLAY': 'wayland-0', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhang', 'NAME': 'Zhangir', 'WSL_INTEROP': '/run/WSL/506_interop', 'VSCODE_HANDLES_SIGPIPE': 'true', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Zhang/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/Zhang/AppData/Local/Programs/Python/Python314/:/mnt/c/Users/Zhang/.local/bin:/mnt/c/Users/Zhang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Zhang/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Processing/:/snap/bin', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_RUNTIME_DIR': '/run/user/1001', 'CLAUDE_EFFORT': 'high', 'DISPLAY': ':0', 'CLAUDE_PID': '949', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/zhang/rosprc_ws/install/tutorial_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'MXC_BIN_DIR': '/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/node_modules/@microsoft/mxc-sdk/bin', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'CLAUDE_CODE_SESSION_ID': '8f18d9cc-07d3-40ca-9063-8f5179e113cd', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GALLIUM_DRIVER': 'd3d12', 'CLAUDECODE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/zhang/rosprc_ws/build/cpp_srvcli', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/zhang/.vscode-server/extensions/anthropic.claude-code-2.1.220-linux-x64/resources/native-binary/claude', 'PYTHONPATH': '/home/zhang/rosprc_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'CLAUDE_CODE_ENABLE_TASKS': '0', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/zhang/rosprc_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[12.563360] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.567887] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[12.572460] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[12.576635] (cpp_srvcli) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zhang/rosprc_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""\n'}
+[12.577871] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[12.578157] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[12.578637] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[12.579022] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[12.581763] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[12.582257] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[12.582618] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[12.582815] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[12.582988] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[12.583219] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[12.583433] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/zhang/rosprc_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[12.583687] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[12.583881] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[12.584058] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[12.586316] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/zhang/rosprc_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[12.589046] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[12.606939] (-) TimerEvent: {}
+[12.664525] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[12.669211] (-) EventReactorShutdown: {}

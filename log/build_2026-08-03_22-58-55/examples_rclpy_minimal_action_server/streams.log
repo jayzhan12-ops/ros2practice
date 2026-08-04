@@ -1,0 +1,25 @@
+[4.597s] Invoking command in '/home/zhang/rosprc_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/zhang/rosprc_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/zhang/rosprc_ws/build/examples_rclpy_minimal_action_server/build install --record /home/zhang/rosprc_ws/build/examples_rclpy_minimal_action_server/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_server --single-version-externally-managed install_data
+[5.062s] running egg_info
+[5.091s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[5.092s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[5.092s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[5.092s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[5.093s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[5.170s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[5.173s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[5.173s] running build
+[5.173s] running build_py
+[5.174s] running install
+[5.190s] running install_lib
+[5.227s] running install_data
+[5.227s] running install_egg_info
+[5.256s] removing '/home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages/examples_rclpy_minimal_action_server-0.19.7-py3.12.egg-info' (and everything under it)
+[5.259s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages/examples_rclpy_minimal_action_server-0.19.7-py3.12.egg-info
+[5.262s] running install_scripts
+[5.514s] Installing server script to /home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.521s] Installing server_defer script to /home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.522s] Installing server_not_composable script to /home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.522s] Installing server_queue_goals script to /home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.522s] Installing server_single_goal script to /home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.522s] writing list of installed files to '/home/zhang/rosprc_ws/build/examples_rclpy_minimal_action_server/install.log'
+[5.634s] Invoked command in '/home/zhang/rosprc_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/zhang/rosprc_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/zhang/rosprc_ws/build/examples_rclpy_minimal_action_server/build install --record /home/zhang/rosprc_ws/build/examples_rclpy_minimal_action_server/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_server --single-version-externally-managed install_data

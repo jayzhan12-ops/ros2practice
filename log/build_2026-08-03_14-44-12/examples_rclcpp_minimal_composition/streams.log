@@ -1,0 +1,31 @@
+[0.366s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_composition -- -j20 -l20
+[3.049s] [ 33%] Built target composition_nodes
+[3.049s] [ 55%] Built target composition_composed
+[3.049s] [ 77%] Built target composition_subscriber
+[3.049s] [100%] Built target composition_publisher
+[3.095s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_composition -- -j20 -l20
+[3.099s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_composition
+[3.298s] -- Install configuration: ""
+[3.299s] -- Execute custom install script
+[3.301s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[3.302s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[3.302s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[3.302s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[3.302s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[3.302s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[3.304s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[3.304s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[3.306s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[3.307s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[3.307s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[3.307s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[3.307s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[3.308s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[3.308s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[3.308s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[3.308s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[3.343s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[3.344s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[3.345s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[3.351s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[3.602s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_composition

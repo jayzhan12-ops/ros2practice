@@ -1,0 +1,2 @@
+Invoking command in '/home/zhang/rosprc_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zhang/rosprc_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/zhang/rosprc_ws/install/more_interfaces
+Invoked command in '/home/zhang/rosprc_ws/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zhang/rosprc_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/zhang/rosprc_ws/install/more_interfaces

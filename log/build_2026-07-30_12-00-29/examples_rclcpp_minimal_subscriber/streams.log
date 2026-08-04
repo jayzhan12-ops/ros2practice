@@ -1,0 +1,68 @@
+[0.031s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_subscriber -- -j20 -l20
+[0.175s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[0.175s] [  8%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[0.176s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[0.176s] [ 16%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[0.177s] [ 25%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[0.177s] [ 25%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[0.178s] [ 29%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[0.178s] [ 33%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[0.185s] [ 37%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[0.185s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[0.188s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[0.188s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[0.192s] [ 54%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[26.122s] [ 58%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[28.504s] [ 58%] Built target wait_set_subscriber
+[33.139s] [ 62%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[35.046s] [ 62%] Built target static_wait_set_subscriber
+[40.713s] [ 66%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[42.360s] [ 66%] Built target time_triggered_wait_set_subscriber
+[52.554s] [ 70%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[54.878s] [ 70%] Built target subscriber_member_function
+[55.084s] [ 75%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[55.471s] [ 79%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[56.727s] [ 79%] Built target subscriber_content_filtering
+[57.355s] [ 79%] Built target subscriber_lambda
+[60.405s] [ 83%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[61.068s] [ 87%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[61.264s] [ 91%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[61.406s] [ 91%] Built target subscriber_member_function_with_type_adapter
+[61.955s] [ 91%] Built target subscriber_not_composable
+[62.194s] [ 91%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[62.559s] [ 95%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[63.361s] [ 95%] Built target subscriber_member_function_with_topic_statistics
+[64.493s] [100%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[66.019s] [100%] Built target wait_set_subscriber_library
+[66.128s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_subscriber -- -j20 -l20
+[66.170s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_subscriber
+[66.203s] -- Install configuration: ""
+[66.207s] -- Execute custom install script
+[66.211s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[66.234s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[66.253s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[66.273s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[66.291s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[66.308s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[66.330s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[66.347s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[66.369s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[66.389s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[66.406s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[66.420s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[66.433s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[66.449s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[66.465s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[66.481s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[66.494s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[66.512s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[66.528s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[66.550s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[66.572s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[66.594s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[66.615s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[66.634s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[66.653s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[66.685s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[66.708s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[66.740s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_subscriber

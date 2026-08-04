@@ -1,0 +1,46 @@
+[0.131s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_wait_set -- -j20 -l20
+[1.658s] [  8%] Built target talker
+[1.658s] [ 16%] Built target listener
+[1.658s] [ 25%] Built target wait_set_talker
+[1.659s] [ 41%] Built target executor_random_order
+[1.659s] [ 45%] Built target wait_set_listener
+[1.659s] [ 50%] Built target thread_safe_wait_set
+[1.659s] [ 58%] Built target static_wait_set
+[1.659s] [ 66%] Built target wait_set_random_order
+[1.659s] [ 75%] Built target wait_set
+[1.659s] [ 83%] Built target wait_set_topics_and_timer
+[1.659s] [ 91%] Built target wait_set_topics_with_different_rates
+[1.659s] [100%] Built target wait_set_composed
+[1.735s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_wait_set -- -j20 -l20
+[1.739s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_wait_set
+[1.958s] -- Install configuration: ""
+[1.958s] -- Execute custom install script
+[1.959s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[1.959s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[1.959s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[1.960s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[1.960s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[1.960s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[1.960s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[1.960s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[1.961s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[1.961s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[1.961s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[1.962s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[1.962s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[1.962s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[1.963s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[1.963s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[1.964s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[1.965s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[1.965s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[1.966s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[1.966s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[1.967s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[1.968s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[1.968s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[1.969s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[1.970s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[1.971s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[1.972s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[2.264s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_wait_set

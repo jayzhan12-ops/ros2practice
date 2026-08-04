@@ -1,0 +1,34 @@
+[1.546s] Invoking command in '/home/zhang/rosprc_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/my_package -- -j20 -l20
+[2.526s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.526s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.529s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.530s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zhang/rosprc_ws/src/my_package/include>
+[2.531s] -- Configured cppcheck exclude dirs and/or files: 
+[2.532s] -- Added test 'lint_cmake' to check CMake code style
+[2.534s] -- Added test 'uncrustify' to check C / C++ code style
+[2.534s] -- Configured uncrustify additional arguments: 
+[2.534s] -- Added test 'xmllint' to check XML markup files
+[2.534s] -- Configuring done (0.6s)
+[2.535s] -- Generating done (0.0s)
+[2.535s] -- Build files have been written to: /home/zhang/rosprc_ws/build/my_package
+[2.536s] [100%] Built target my_node
+[2.564s] Invoked command in '/home/zhang/rosprc_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/my_package -- -j20 -l20
+[2.566s] Invoking command in '/home/zhang/rosprc_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/my_package
+[2.588s] -- Install configuration: ""
+[2.588s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/lib/my_package/my_node
+[2.588s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[2.590s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[2.594s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[2.594s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[2.595s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/my_package/environment/path.sh
+[2.596s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/my_package/environment/path.dsv
+[2.596s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/my_package/local_setup.bash
+[2.598s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/my_package/local_setup.sh
+[2.600s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/my_package/local_setup.zsh
+[2.600s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/my_package/local_setup.dsv
+[2.600s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/my_package/package.dsv
+[2.601s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[2.601s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[2.601s] -- Up-to-date: /home/zhang/rosprc_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[2.601s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/my_package/package.xml
+[2.637s] Invoked command in '/home/zhang/rosprc_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/my_package

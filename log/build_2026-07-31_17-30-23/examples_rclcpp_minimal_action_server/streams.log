@@ -1,0 +1,53 @@
+[0.115s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zhang/rosprc_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server
+[2.397s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.398s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.399s] -- Found example_interfaces: 0.12.1 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[3.728s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.755s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.781s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.813s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.994s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.056s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.059s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.343s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.523s] -- Found rclcpp_action: 28.1.21 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[4.540s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.674s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.678s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.679s] -- Configured cppcheck include dirs: 
+[4.679s] -- Configured cppcheck exclude dirs and/or files: 
+[4.680s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.680s] -- Configured cpplint exclude dirs and/or files: 
+[4.682s] -- Added test 'lint_cmake' to check CMake code style
+[4.682s] -- Added test 'uncrustify' to check C / C++ code style
+[4.683s] -- Configured uncrustify additional arguments: 
+[4.683s] -- Added test 'xmllint' to check XML markup files
+[4.685s] -- Configuring done (4.5s)
+[4.738s] -- Generating done (0.0s)
+[4.815s] -- Build files have been written to: /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_server
+[5.001s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zhang/rosprc_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server
+[5.003s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_server -- -j20 -l20
+[5.128s] [ 50%] Built target action_server_member_functions
+[5.136s] [100%] Built target action_server_not_composable
+[5.608s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_server -- -j20 -l20
+[5.611s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_server
+[5.698s] -- Install configuration: ""
+[5.699s] -- Execute custom install script
+[5.699s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[5.699s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[5.699s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[5.699s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[5.700s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[5.701s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[5.701s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[5.702s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[5.702s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[5.702s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[5.702s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[5.703s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[5.703s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[5.704s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[5.704s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[5.705s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[5.705s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[5.755s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_server

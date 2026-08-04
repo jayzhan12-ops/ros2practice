@@ -1,0 +1,29 @@
+[0.227s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client -- -j20 -l20
+[3.286s] [ 25%] Built target action_client_member_functions
+[3.286s] [ 50%] Built target action_client_not_composable
+[3.286s] [ 75%] Built target action_client_not_composable_with_feedback
+[3.287s] [100%] Built target action_client_not_composable_with_cancel
+[3.324s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client -- -j20 -l20
+[3.327s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client
+[3.559s] -- Install configuration: ""
+[3.559s] -- Execute custom install script
+[3.560s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[3.560s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[3.560s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[3.560s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[3.560s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[3.560s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[3.561s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[3.561s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[3.561s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[3.561s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[3.562s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[3.562s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[3.563s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[3.564s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[3.564s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[3.564s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[3.565s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[3.565s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[3.566s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[3.696s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client

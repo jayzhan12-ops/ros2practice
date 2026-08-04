@@ -1,0 +1,24 @@
+[0.119s] Invoking command in '/home/zhang/rosprc_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/cpp_pubsub -- -j20 -l20
+[1.709s] [ 50%] Built target talker
+[1.709s] [100%] Built target listener
+[1.731s] Invoked command in '/home/zhang/rosprc_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/cpp_pubsub -- -j20 -l20
+[1.735s] Invoking command in '/home/zhang/rosprc_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/cpp_pubsub
+[1.881s] -- Install configuration: ""
+[1.882s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[1.883s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[1.883s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[1.883s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[1.884s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[1.884s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[1.884s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[1.884s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[1.885s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[1.887s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[1.889s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[1.891s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[1.891s] -- Installing: /home/zhang/rosprc_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[1.892s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[1.893s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[1.894s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[1.894s] -- Up-to-date: /home/zhang/rosprc_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.036s] Invoked command in '/home/zhang/rosprc_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/cpp_pubsub

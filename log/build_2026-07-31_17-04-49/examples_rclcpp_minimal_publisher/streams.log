@@ -1,0 +1,60 @@
+[0.126s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zhang/rosprc_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher
+[2.386s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.386s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.386s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.572s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.593s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.607s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.787s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.788s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.019s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.563s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.564s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.564s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.564s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.564s] -- Configured cppcheck include dirs: 
+[4.565s] -- Configured cppcheck exclude dirs and/or files: 
+[4.565s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.565s] -- Configured cpplint exclude dirs and/or files: 
+[4.565s] -- Added test 'lint_cmake' to check CMake code style
+[4.565s] -- Added test 'uncrustify' to check C / C++ code style
+[4.565s] -- Configured uncrustify additional arguments: 
+[4.566s] -- Added test 'xmllint' to check XML markup files
+[4.566s] -- Configuring done (4.3s)
+[4.566s] -- Generating done (0.1s)
+[4.566s] -- Build files have been written to: /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher
+[4.630s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zhang/rosprc_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher
+[4.631s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[4.723s] [ 16%] Built target publisher_member_function_with_type_adapter
+[4.723s] [ 33%] Built target publisher_lambda
+[4.724s] [ 50%] Built target publisher_not_composable
+[4.724s] [ 66%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[4.724s] [ 83%] Built target publisher_member_function
+[4.724s] [100%] Built target publisher_wait_for_all_acked
+[5.011s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[5.013s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher
+[5.058s] -- Install configuration: ""
+[5.059s] -- Execute custom install script
+[5.060s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[5.061s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[5.061s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[5.061s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[5.061s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[5.062s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[5.064s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[5.064s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[5.065s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[5.075s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[5.075s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[5.075s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[5.075s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[5.075s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[5.076s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[5.076s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[5.076s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[5.076s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[5.076s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[5.076s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[5.076s] -- Up-to-date symlink: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[5.124s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher

@@ -1,0 +1,40 @@
+[0.041s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_cbg_executor -- -j20 -l20
+[0.209s] [ 10%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[8.324s] [ 20%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[20.980s] [ 30%] [32m[1mLinking CXX executable ping[0m
+[22.072s] [ 30%] Built target ping
+[22.107s] [ 40%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[27.037s] [ 50%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[38.476s] [ 60%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[49.846s] [ 70%] [32m[1mLinking CXX executable ping_pong[0m
+[50.904s] [ 70%] Built target ping_pong
+[50.939s] [ 80%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[50.940s] [ 90%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[66.605s] [100%] [32m[1mLinking CXX executable pong[0m
+[67.828s] [100%] Built target pong
+[67.861s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_cbg_executor -- -j20 -l20
+[67.870s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_cbg_executor
+[67.903s] -- Install configuration: ""
+[67.907s] -- Execute custom install script
+[67.909s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[67.944s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[67.973s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[68.014s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[68.037s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[68.076s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[68.114s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[68.150s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[68.180s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[68.213s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[68.248s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[68.277s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[68.310s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[68.348s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[68.384s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[68.423s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[68.462s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[68.493s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[68.525s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[68.537s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[68.566s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[68.611s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_cbg_executor

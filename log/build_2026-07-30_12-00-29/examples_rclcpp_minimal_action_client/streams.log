@@ -1,0 +1,37 @@
+[0.038s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client -- -j20 -l20
+[0.186s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[0.187s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[0.188s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[0.193s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[10.051s] [ 75%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[10.051s] [ 75%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[10.198s] [ 87%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[10.398s] [100%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[10.510s] [100%] Built target action_client_not_composable_with_feedback
+[10.512s] [100%] Built target action_client_not_composable
+[10.947s] [100%] Built target action_client_not_composable_with_cancel
+[11.074s] [100%] Built target action_client_member_functions
+[11.093s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client -- -j20 -l20
+[11.096s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client
+[11.107s] -- Install configuration: ""
+[11.109s] -- Execute custom install script
+[11.111s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[11.120s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[11.132s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[11.146s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[11.159s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[11.173s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[11.186s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[11.199s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[11.212s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[11.228s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[11.244s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[11.259s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[11.273s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[11.286s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[11.304s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[11.320s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[11.341s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[11.359s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[11.380s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[11.412s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_action_client

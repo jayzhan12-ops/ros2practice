@@ -1,0 +1,45 @@
+[0.024s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[0.161s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[0.161s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[0.163s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[0.164s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[0.164s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[0.177s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[13.331s] [ 58%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[13.919s] [ 66%] [32m[1mLinking CXX executable publisher_lambda[0m
+[14.143s] [ 75%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[14.167s] [ 83%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[14.193s] [ 91%] [32m[1mLinking CXX executable publisher_member_function[0m
+[14.204s] [100%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[14.226s] [100%] Built target publisher_not_composable
+[14.696s] [100%] Built target publisher_lambda
+[14.843s] [100%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[14.856s] [100%] Built target publisher_member_function_with_type_adapter
+[14.874s] [100%] Built target publisher_wait_for_all_acked
+[14.874s] [100%] Built target publisher_member_function
+[14.896s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[14.901s] Invoking command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher
+[14.914s] -- Install configuration: ""
+[14.916s] -- Execute custom install script
+[14.917s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[14.935s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[14.952s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[14.968s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[14.987s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[15.003s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[15.016s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[15.029s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[15.044s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[15.062s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[15.076s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[15.090s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[15.105s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[15.130s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[15.148s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[15.170s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[15.194s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[15.220s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[15.240s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[15.261s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[15.282s] -- Symlinking: /home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[15.312s] Invoked command in '/home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/examples_rclcpp_minimal_publisher

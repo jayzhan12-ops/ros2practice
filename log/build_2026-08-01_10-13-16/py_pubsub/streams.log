@@ -1,0 +1,42 @@
+[1.083s] Invoking command in '/home/zhang/rosprc_ws/src/py_pubsub': PYTHONPATH=/home/zhang/rosprc_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhang/rosprc_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/zhang/rosprc_ws/build/py_pubsub/build install --record /home/zhang/rosprc_ws/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed install_data
+[1.333s] running egg_info
+[1.333s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[1.350s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.350s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.351s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.351s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.351s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.351s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.384s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.384s] adding license file 'LICENSE'
+[1.385s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.385s] running build
+[1.385s] running build_py
+[1.385s] creating /home/zhang/rosprc_ws/build/py_pubsub/build
+[1.385s] creating /home/zhang/rosprc_ws/build/py_pubsub/build/lib
+[1.386s] creating /home/zhang/rosprc_ws/build/py_pubsub/build/lib/py_pubsub
+[1.387s] copying py_pubsub/publisher_member_function.py -> /home/zhang/rosprc_ws/build/py_pubsub/build/lib/py_pubsub
+[1.387s] copying py_pubsub/subscriber_member_function.py -> /home/zhang/rosprc_ws/build/py_pubsub/build/lib/py_pubsub
+[1.387s] copying py_pubsub/__init__.py -> /home/zhang/rosprc_ws/build/py_pubsub/build/lib/py_pubsub
+[1.387s] running install
+[1.392s] running install_lib
+[1.408s] creating /home/zhang/rosprc_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.409s] copying /home/zhang/rosprc_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/zhang/rosprc_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.409s] copying /home/zhang/rosprc_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/zhang/rosprc_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.409s] copying /home/zhang/rosprc_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/zhang/rosprc_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[1.410s] byte-compiling /home/zhang/rosprc_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[1.411s] byte-compiling /home/zhang/rosprc_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+[1.412s] byte-compiling /home/zhang/rosprc_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[1.412s] running install_data
+[1.413s] creating /home/zhang/rosprc_ws/install/py_pubsub/share/ament_index
+[1.413s] creating /home/zhang/rosprc_ws/install/py_pubsub/share/ament_index/resource_index
+[1.413s] creating /home/zhang/rosprc_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.413s] copying resource/py_pubsub -> /home/zhang/rosprc_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.413s] copying package.xml -> /home/zhang/rosprc_ws/install/py_pubsub/share/py_pubsub
+[1.413s] running install_egg_info
+[1.433s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/zhang/rosprc_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[1.434s] running install_scripts
+[1.548s] Installing listener script to /home/zhang/rosprc_ws/install/py_pubsub/lib/py_pubsub
+[1.548s] Installing talker script to /home/zhang/rosprc_ws/install/py_pubsub/lib/py_pubsub
+[1.549s] writing list of installed files to '/home/zhang/rosprc_ws/build/py_pubsub/install.log'
+[1.572s] Invoked command in '/home/zhang/rosprc_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/zhang/rosprc_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhang/rosprc_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/zhang/rosprc_ws/build/py_pubsub/build install --record /home/zhang/rosprc_ws/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed install_data

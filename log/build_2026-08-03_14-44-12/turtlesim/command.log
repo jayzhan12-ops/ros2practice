@@ -1,0 +1,1 @@
+Invoking command in '/home/zhang/rosprc_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/turtlesim -- -j20 -l20

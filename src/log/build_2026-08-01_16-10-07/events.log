@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.001017] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001093] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001135] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001246] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001274] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001376] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001427] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001466] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001506] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001545] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001585] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001625] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001664] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001720] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001759] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001773] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001784] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001794] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001834] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001883] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001923] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001964] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002004] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.002044] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.002084] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002124] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002164] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002205] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002244] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002287] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.002334] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.021763] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.025512] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/zhang/rosprc_ws/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/zhang/rosprc_ws/src/install/more_interfaces'], 'cwd': '/home/zhang/rosprc_ws/src/build/more_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'zhang', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '0', 'LD_LIBRARY_PATH': '/home/zhang/rosprc_ws/install/turtlesim/lib:/home/zhang/rosprc_ws/install/examples_rclcpp_wait_set/lib:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/zhang', 'OLDPWD': '//', 'TERM_PROGRAM_VERSION': '1.131.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1001/vscode-ipc-0e440554-b2b0-4723-b0a4-0686ef802272.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/opt/ros/jazzy/', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/zhang/rosprc_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zhang', 'NAME': 'Zhangir', 'WSL_INTEROP': '/run/WSL/40790_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '61920', 'TERM': 'xterm-256color', 'PATH': '/home/zhang/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/zhang/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/zhang/.vscode-server/bin/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Zhang/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/Zhang/AppData/Local/Programs/Python/Python314/:/mnt/c/Users/Zhang/.local/bin:/mnt/c/Users/Zhang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Zhang/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Processing/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-82e1d75d12.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/zhang/rosprc_ws/install/turtlesim:/home/zhang/rosprc_ws/install/py_srvcli:/home/zhang/rosprc_ws/install/py_pubsub:/home/zhang/rosprc_ws/install/my_package:/home/zhang/rosprc_ws/install/launch_testing_examples:/home/zhang/rosprc_ws/install/examples_rclpy_pointcloud_publisher:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_subscriber:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_service:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_publisher:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_client:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_server:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_client:/home/zhang/rosprc_ws/install/examples_rclpy_guard_conditions:/home/zhang/rosprc_ws/install/examples_rclpy_executors:/home/zhang/rosprc_ws/install/examples_rclcpp_wait_set:/home/zhang/rosprc_ws/install/examples_rclcpp_multithreaded_executor:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_timer:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_service:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_client:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client:/home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor:/home/zhang/rosprc_ws/install/examples_rclcpp_async_client:/home/zhang/rosprc_ws/install/cpp_srvcli:/home/zhang/rosprc_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GALLIUM_DRIVER': 'd3d12', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/zhang/rosprc_ws/src/build/more_interfaces', 'TURTLEBOT3_MODEL': 'burger', 'COPILOT_DEBUG_NONCE': '503c6a609ad3c4b1656ae504fee63388', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zhang/rosprc_ws/install/turtlesim/lib/python3.12/site-packages:/home/zhang/rosprc_ws/install/py_srvcli/lib/python3.12/site-packages:/home/zhang/rosprc_ws/install/py_pubsub/lib/python3.12/site-packages:/home/zhang/rosprc_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/zhang/rosprc_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/zhang/rosprc_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/zhang/rosprc_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/zhang/rosprc_ws/install/turtlesim:/home/zhang/rosprc_ws/install/my_package:/home/zhang/rosprc_ws/install/examples_rclcpp_wait_set:/home/zhang/rosprc_ws/install/examples_rclcpp_multithreaded_executor:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_timer:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_subscriber:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_service:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_publisher:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_composition:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_client:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_server:/home/zhang/rosprc_ws/install/examples_rclcpp_minimal_action_client:/home/zhang/rosprc_ws/install/examples_rclcpp_cbg_executor:/home/zhang/rosprc_ws/install/examples_rclcpp_async_client:/home/zhang/rosprc_ws/install/cpp_srvcli:/home/zhang/rosprc_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/zhang/rosprc_ws/install/py_srvcli:/home/zhang/rosprc_ws/install/py_pubsub:/home/zhang/rosprc_ws/install/launch_testing_examples:/home/zhang/rosprc_ws/install/examples_rclpy_pointcloud_publisher:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_subscriber:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_service:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_publisher:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_client:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_server:/home/zhang/rosprc_ws/install/examples_rclpy_minimal_action_client:/home/zhang/rosprc_ws/install/examples_rclpy_guard_conditions:/home/zhang/rosprc_ws/install/examples_rclpy_executors:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.099635] (-) TimerEvent: {}
+[0.199964] (-) TimerEvent: {}
+[0.300390] (-) TimerEvent: {}
+[0.401018] (-) TimerEvent: {}
+[0.498687] (more_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.501123] (-) TimerEvent: {}
+[0.601453] (-) TimerEvent: {}
+[0.701811] (-) TimerEvent: {}
+[0.802206] (-) TimerEvent: {}
+[0.902669] (-) TimerEvent: {}
+[1.003268] (-) TimerEvent: {}
+[1.103749] (-) TimerEvent: {}
+[1.204322] (-) TimerEvent: {}
+[1.304882] (-) TimerEvent: {}
+[1.405614] (-) TimerEvent: {}
+[1.506429] (-) TimerEvent: {}
+[1.607036] (-) TimerEvent: {}
+[1.646678] (more_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.707345] (-) TimerEvent: {}
+[1.807869] (-) TimerEvent: {}
+[1.908353] (-) TimerEvent: {}
+[2.009024] (-) TimerEvent: {}
+[2.109395] (-) TimerEvent: {}
+[2.209646] (-) TimerEvent: {}
+[2.309873] (-) TimerEvent: {}
+[2.410177] (-) TimerEvent: {}
+[2.510609] (-) TimerEvent: {}
+[2.611082] (-) TimerEvent: {}
+[2.614485] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.711161] (-) TimerEvent: {}
+[2.811502] (-) TimerEvent: {}
+[2.911899] (-) TimerEvent: {}
+[2.963960] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.972489] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.973109] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.973883] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.012013] (-) TimerEvent: {}
+[3.022468] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.112166] (-) TimerEvent: {}
+[3.212675] (-) TimerEvent: {}
+[3.313245] (-) TimerEvent: {}
+[3.388514] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.397603] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.397952] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.398434] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.413341] (-) TimerEvent: {}
+[3.439828] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.513450] (-) TimerEvent: {}
+[3.613741] (-) TimerEvent: {}
+[3.712345] (more_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.713834] (-) TimerEvent: {}
+[3.814160] (-) TimerEvent: {}
+[3.914542] (-) TimerEvent: {}
+[3.918058] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[3.937435] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.014644] (-) TimerEvent: {}
+[4.115123] (-) TimerEvent: {}
+[4.215733] (-) TimerEvent: {}
+[4.316317] (-) TimerEvent: {}
+[4.416704] (-) TimerEvent: {}
+[4.476569] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.516959] (-) TimerEvent: {}
+[4.570146] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[4.574648] (more_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:59 (message):\n'}
+[4.574870] (more_interfaces) StderrLine: {'line': b'  rosidl_generate_interfaces() called without any interface files\n'}
+[4.574975] (more_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.575025] (more_interfaces) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[4.575067] (more_interfaces) StderrLine: {'line': b'\n'}
+[4.575108] (more_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[4.575147] (more_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.580976] (more_interfaces) CommandEnded: {'returncode': 1}
+[4.607772] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 1}
+[4.608941] (-) EventReactorShutdown: {}

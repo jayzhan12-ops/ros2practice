@@ -1,0 +1,51 @@
+[0.657s] Invoking command in '/home/zhang/rosprc_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zhang/rosprc_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/zhang/rosprc_ws/install/my_package
+[0.893s] -- The C compiler identification is GNU 13.3.0
+[1.440s] -- The CXX compiler identification is GNU 13.3.0
+[2.062s] -- Detecting C compiler ABI info
+[2.314s] -- Detecting C compiler ABI info - done
+[2.323s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.324s] -- Detecting C compile features
+[2.324s] -- Detecting C compile features - done
+[2.426s] -- Detecting CXX compiler ABI info
+[2.717s] -- Detecting CXX compiler ABI info - done
+[2.725s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.726s] -- Detecting CXX compile features
+[2.726s] -- Detecting CXX compile features - done
+[2.761s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.907s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.020s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.158s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.158s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zhang/rosprc_ws/src/my_package/include>
+[3.158s] -- Configured cppcheck exclude dirs and/or files: 
+[3.159s] -- Added test 'lint_cmake' to check CMake code style
+[3.161s] -- Added test 'uncrustify' to check C / C++ code style
+[3.161s] -- Configured uncrustify additional arguments: 
+[3.162s] -- Added test 'xmllint' to check XML markup files
+[3.165s] -- Configuring done (2.5s)
+[3.169s] -- Generating done (0.0s)
+[3.171s] -- Build files have been written to: /home/zhang/rosprc_ws/build/my_package
+[3.177s] Invoked command in '/home/zhang/rosprc_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zhang/rosprc_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/zhang/rosprc_ws/install/my_package
+[3.178s] Invoking command in '/home/zhang/rosprc_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/my_package -- -j20 -l20
+[3.232s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[3.268s] [100%] [32m[1mLinking CXX executable my_node[0m
+[3.377s] [100%] Built target my_node
+[3.387s] Invoked command in '/home/zhang/rosprc_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zhang/rosprc_ws/build/my_package -- -j20 -l20
+[3.388s] Invoking command in '/home/zhang/rosprc_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/my_package
+[3.395s] -- Install configuration: ""
+[3.396s] -- Installing: /home/zhang/rosprc_ws/install/my_package/lib/my_package/my_node
+[3.396s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[3.397s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[3.397s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[3.397s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[3.397s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/my_package/environment/path.sh
+[3.397s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/my_package/environment/path.dsv
+[3.398s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/my_package/local_setup.bash
+[3.398s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/my_package/local_setup.sh
+[3.398s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/my_package/local_setup.zsh
+[3.399s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/my_package/local_setup.dsv
+[3.399s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/my_package/package.dsv
+[3.399s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[3.399s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[3.399s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[3.399s] -- Installing: /home/zhang/rosprc_ws/install/my_package/share/my_package/package.xml
+[3.402s] Invoked command in '/home/zhang/rosprc_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zhang/rosprc_ws/build/my_package
