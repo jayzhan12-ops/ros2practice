@@ -1,3 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
-[ 75%] Built target server
-[100%] [32m[1mLinking CXX executable client[0m
